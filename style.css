@@ -1,0 +1,57 @@
+.container {
+     max-width: 500px;
+     margin: 0 auto;
+     text-align: center;
+}
+
+h1 {
+     font-size: 3rem;
+     margin-top: 2rem;
+}
+
+form {
+     margin-top: 2rem;
+}
+
+input[type="text"] {
+     padding: 0.5rem;
+     width: 70%;
+     border: none;
+     border-bottom: 1px solid #ccc;
+     font-size: 1rem;
+}
+
+button[type="submit"] {
+     padding: 0.5rem;
+     background-color: #008CBA;
+     color: #fff;
+     border: none;
+     margin-left: 1rem;
+     cursor: pointer;
+}
+
+.tasks {
+     list-style-type: none;
+     margin-top: 2rem;
+     padding: 0;
+     text-align: left;
+}
+
+.task-item {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0.5rem 0;
+     padding: 0.5rem;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+}
+
+.task-item button {
+     background-color: #ff5050;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     padding: 0.5rem;
+     cursor: pointer;
+}
